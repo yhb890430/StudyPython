@@ -1,3 +1,5 @@
+# -*- coding: UTF-8 -*-
+# 为python源码文件指定编码方式，Python3.0以后默认是UTF-8 模式，可以不指定
 import keyword;# import关键字用于引用类
 
 # print用于输出，默认换行，如果要实现不换行需要在变量末尾加上 end=""
@@ -19,7 +21,7 @@ print(_name);
 # keyword表示Python的保留关键字，不可用于标识符
 print(keyword.kwlist);
 
-# 单行注释
+#
 
 # 行与缩进
 if True:
@@ -62,3 +64,4 @@ from sys import argv, path  # 导入特定的成员
 
 print('================python from import===================================')
 print('path:', path)  # 因为已经导入path成员，所以此处引用时不需要加sys.path
+
